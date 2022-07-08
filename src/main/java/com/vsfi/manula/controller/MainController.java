@@ -18,14 +18,12 @@ public class MainController {
     @RequestMapping(value = "/task", method = RequestMethod.POST, params = "decrement")
     public String decrement(Model model) {
         manulas--;
-        model.addAttribute("manula", manulas);
-        return "index";
+        return "redirect:/";
     }
 
     @RequestMapping(value = "/task", method = RequestMethod.POST, params = "increment")
     public String increment(Model model) {
         manulas++;
-        model.addAttribute("manula", manulas);
-        return "index";
+        return "redirect:/";
     }
 }

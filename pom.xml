@@ -10,11 +10,11 @@
 	</parent>
 	<groupId>com.vsfi</groupId>
 	<artifactId>manula</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>manula</name>
 	<description>counter of manula for vsfi dudes</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

@@ -1,3 +1,3 @@
 ./mvnw package && java -jar target/manula-0.1.0.jar;
-docker build -t springio/manula .;
-docker run -p 8080:8080 springio/manula;
+docker build -t manula .;
+docker run -p 8080:8080 manula;
